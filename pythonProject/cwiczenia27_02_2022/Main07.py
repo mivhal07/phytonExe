@@ -10,4 +10,12 @@ except ZeroDivisionError:
     # a = input('wpisz liczbę a: ')
     # a = int(a)
 except ValueError:
-   print('to nie jest liczba')
+    print('to nie jest liczba')
+
+# # pododawać do listy, pousuwać, metody w liście
+# słownik={1:10;"klucz":"wartość";1:20} klucz-wartość, metody w słowniku
+
+slownik = {1: 2, 'uwm': 'edu', 5:10}
+print(slownik)
+slownik["color"] = "red"
+print(slownik)
